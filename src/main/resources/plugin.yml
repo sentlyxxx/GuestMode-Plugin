@@ -1,0 +1,9 @@
+name: GuestModePlugin
+version: 1.0
+main: me.example.guestmode.GuestModePlugin
+api-version: 1.21
+
+permissions:
+  guestmode.use:
+    description: Разрешение использовать гостевой режим
+    default: true
