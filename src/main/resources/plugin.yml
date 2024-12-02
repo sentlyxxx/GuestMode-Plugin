@@ -1,9 +1,12 @@
 name: GuestModePlugin
 version: 1.0
-main: me.example.guestmode.GuestModePlugin
+main: org.example.guestmode.GuestModePlugin
 api-version: 1.21
-
+commands:
+  guestmode:
+    description: Включить/выключить гостевой режим
+    usage: /<command>
 permissions:
-  guestmode.use:
-    description: Разрешение использовать гостевой режим
-    default: true
+  guestmode.command:
+    description: Разрешение на использование команды /guestmode
+    default: op
